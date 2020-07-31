@@ -1,0 +1,14 @@
+{/* <style> */}
+{/*     .alert { */}
+{/*         padding: 15px; */}
+{/*         border: 1px solid #d6e9c6; */}
+{/*         border-radius: 4px; */}
+{/*         color: #3c763d; */}
+{/*         background-color: #dff0d8; */}
+{/*     } */}
+{/* </style> */}
+{/* let div = document.createElement('div'); */}
+{/*     div.className = "alert"; */}
+{/*     div.innerHTML = "<strong>Hi there!</strong> You've read an important message."; */}
+
+{/*     document.body.append(div); */}
