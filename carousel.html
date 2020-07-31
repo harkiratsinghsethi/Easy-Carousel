@@ -10,7 +10,7 @@
 <div class="carousel">
     <button type="submit" class="prev" id="prev" value="prev">prev</button>
 
-    <img  class="images" id='img_id'>
+    <img class="images" id='img_id'>
 
     <button type="submit" class="next" id="next" value="next"/>
     next</button>
@@ -19,44 +19,8 @@
 
 <body>
 
-<script>
-    let img = ['imgs/1.png', 'imgs/2.png', 'imgs/3.png']
-    let prev = document.getElementById('prev');
-    let next = document.getElementById('next');
-    let images = document.getElementById('img_id');
-    images.src = img[0]
-    prev.disabled = true
-    let count = 0;
-    prev.addEventListener('click', () => {
-        console.log(count)
-        console.log('prev clicked')
+<script src="script.js"></script>
 
-        count -= 1
-        images.src = img[count]
 
-        if(count===0){
-            prev.disabled = true
-
-        }
-        if ( count <= img.length - 1) {
-            next.disabled = false
-        }
-
-    })
-    next.addEventListener('click', () => {
-        console.log(count)
-        console.log('next clicked')
-        count += 1
-        images.src = img[count]
-        if(count){
-            prev.disabled = false
-        }
-        if ( count === img.length - 1) {
-            next.disabled = true
-            prev.disabled = false
-        }
-    })
-
-</script>
 </body>
 </html>
